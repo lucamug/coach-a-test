@@ -2,6 +2,7 @@
 # Doodle Weather
 ## coach-a-test by Luca Mugnaini
 
+![Video](https://i.ytimg.com/vi/oxVYKm47DNE/0.jpg)
 [Video](http://www.youtube.com/watch?v=oxVYKm47DNE)
 
 
@@ -104,10 +105,8 @@ To compile with the debugger, this is the commnad:
 
 The scripts of the app are:
 
-```
-public/js/brushsizeWithDebugger.js
-public/js/brushsize.js
-```
+`public/js/brushsizeWithDebugger.js`
+`public/js/brushsize.js`
 
 These are the two files of Elm, with and without debugger. They contain the entire Elm language and should be pruned and minified before going into  production
 
@@ -135,10 +134,8 @@ Is the data store for the REST API. It contains all the symbols that are placed 
 
 Contains images and styles
 
-```
-index.html
-indexWithDebugger.html
-```
+`index.html`
+`indexWithDebugger.html`
 
 The main pages. The difference is that one is loading `brushsize.js` and the other `brushsizeWithDebugger.js`
 
