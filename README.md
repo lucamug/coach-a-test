@@ -2,7 +2,7 @@
 # Doodle Weather
 ## coach-a-test by Luca Mugnaini
 
-[![Video](http://img.youtube.com/vi/wDAdizP84ho/0.jpg)](http://www.youtube.com/watch?v=wDAdizP84ho)
+[Video](http://www.youtube.com/watch?v=wDAdizP84ho)
 
 
 I like the idea of collaborative platform where users can share their knowledge and contribute to a common cause.
@@ -18,7 +18,7 @@ It also has a fully working REST API for the information about the weather.
 To run the app (assuming https://nodejs.org/ is installed):
 
 ```
-$ git clone ...
+$ git clone https://github.com/lucamug/coach-a-test.git
 $ cd coach-a-test
 $ npm install
 $ node server.js
@@ -51,8 +51,11 @@ It only runs on the latest version of the browsers. It works alson on mobile but
 These some of the resources that I used:
 
 https://github.com/typicode/json-server to setup the full fake REST API
+
 http://iamdustan.com/smoothscroll/ smooth scroll polyfill
+
 https://socket.io/demos/whiteboard/ for the shared whiteboard
+
 https://github.com/kickstandapps/WeatherIcons for the weather icons
 
 As a future improvement, from a maintenability perspective, would be better to move to a framework such as Elm. For the moment I just added a very small Elm part (read below).
