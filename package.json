@@ -1,0 +1,23 @@
+{
+    "name": "coach-a-test",
+    "version": "0.0.1",
+    "description": "coach-a-test",
+    "author": "Luca Mugnaini",
+    "main": "app.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "*",
+        "socket.io": "*",
+        "json-server": "^0.8.14"
+    },
+    "engines": {
+        "node": "4.4.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lucamug/coach-a-test.git"
+    },
+    "license": "MIT"
+}

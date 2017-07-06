@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Doodle Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="author" content="Luca Mugnaini">
+    <link rel="stylesheet" href="assets/fonts.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+
+<body class="hiddenInstructions">
+    <div id="map">
+        <img alt="map" src="assets/map.svg">
+    </div>
+    <div id="symbols"></div>
+    <div id="cursors"></div>
+    <canvas id="paper" width="3000" height="3190"></canvas>
+    <div id="menu">
+        <div id="mapSmall"></div>
+        <h1 id="logo">Doodle<br>Weather</h1>
+        <button style="top: -5px; left: 160px" onclick="凸.coachA.scrollWin(2009, 23)">Hokkaidō</button>
+        <button style="top: 89px; left:154px" onclick="凸.coachA.scrollWin(1663, 953)">Tōhoku</button>
+        <button style="top: 104px; left:82px" onclick="凸.coachA.scrollWin(1189, 1671)">Chūbu</button>
+        <button style="top: 181px; left:65px" onclick="凸.coachA.scrollWin(419, 2128)">Shikoku</button>
+        <button style="top: 134px; left:8px" onclick="凸.coachA.scrollWin(283, 1903)">Chūgoku</button>
+        <button style="top: 207px; left:41px" onclick="凸.coachA.scrollWin(0, 2354)">Kyūshū</button>
+        <button style="top: 154px; left:140px" onclick="凸.coachA.scrollWin(1540, 1630)">Kantō</button>
+        <button style="top: 166px; left:102px" onclick="凸.coachA.scrollWin(706, 1984)">Kansai</button>
+    </div>
+    <div id="instructions">
+        <h1>Doodle<br>Weather</h1>
+        <p>Check the weather and add your annotation just drawing on the map.</p>
+        <p>Your notes will be shared with everybody in real time.</p>
+        <p>Click anywere on the map start</p>
+        <div id="main"></div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/brushsizeWithDebugger.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #72b2ff;
+}
+
+a,
+a:visited {
+    outline: none;
+    color: #43819b;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#menu {
+    position: fixed;
+    bottom: 232px;
+    right: 217px;
+    opacity: 0.8;
+    transition: all 0.2s;
+}
+
+#menu:hover {
+    opacity: 1;
+}
+
+.hiddenInstructions #menu h1 {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+#menu h1 {
+    transform: scale(0.0);
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    transition: all 0.4s;
+    color: #30307e;
+}
+
+#instructions h1,
+#menu h1 {
+    font-family: Pijamas, cursive;
+    font-size: 4em;
+    font-weight: normal;
+    line-height: .7em;
+}
+
+.showSymbols #symbols > div {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+#symbols > div {
+    font-family: WeatherIcons;
+    font-size: 4em;
+    font-weight: normal;
+    position: absolute;
+    color: white;
+    transition: all 3s;
+    transform: scale(0.0);
+    opacity: 0;
+    visibility: hidden;
+}
+
+#paper {
+    position: absolute;
+    top: 0px;
+}
+
+#map {
+    position: absolute;
+    width: 3000px;
+    top: 0;
+}
+
+button {
+    position: absolute;
+    cursor: pointer;
+}
+
+#mapSmall {
+    position: absolute;
+    width: 200px;
+    top: 10px;
+    left: 10px;
+}
+
+#instructions {
+    position: fixed;
+    background-color: white;
+    width: 260px;
+    height: 260px;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: #555;
+    transition: all 0.4s;
+}
+
+.brushsize span,
+.brushsize button {
+    display: inline-block;
+    margin: 0 3px;
+    position: relative;
+}
+
+.brushsize button {
+    font-size: 1.2em;
+    width: 30px;
+    height: 30px;
+}
+
+.hiddenInstructions #instructions {
+    transform: scale(0.0);
+    top: 10px;
+    left: 10px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#instructions p {
+    margin: .8em 0;
+}
+
+#cursors {
+    position: relative;
+}
+
+#cursors .cursor {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    background: url('pointer.png') no-repeat -4px 0;
+}
