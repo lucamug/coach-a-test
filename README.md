@@ -2,7 +2,7 @@
 # Doodle Weather
 ## coach-a-test by Luca Mugnaini
 
-[Video](http://www.youtube.com/watch?v=wDAdizP84ho)
+[Video](http://www.youtube.com/watch?v=oxVYKm47DNE)
 
 
 I like the idea of collaborative platform where users can share their knowledge and contribute to a common cause.
